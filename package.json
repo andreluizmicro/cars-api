@@ -4,7 +4,7 @@
   "description": "API de estudo para criação de projetos com nodejs",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node-dev --transpile-only --ignore-watch node_models --respawn src/server.ts"
+    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_models --respawn src/server.ts"
   },
   "dependencies": {
     "express": "^4.17.1"
