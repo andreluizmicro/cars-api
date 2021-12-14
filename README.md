@@ -4,15 +4,13 @@ Este é um projeto pessoal para estudo de criação de API's com NodeJS
 
 ## Rodando a aplicação passo a passo
 
-Para rodar a aplicação é necessário instalar as dependências do projeto utilizando utilzando:
+Vamos utilizar o Docker para rodar a aplicação utilizando o comando abaixo:
 
-    yarn install ou npm install
+    docker-compose up -d
 
-Após a instalação das dependências basta rodar o comando:
+## Docker
 
-    yarn dev
-
-NOTA: A aplicação pode ser acessada em http://localhost:3333 a porta pode ser alterada no arquivo `server.ts`
+O Docker é um conjunto de produtos de plataforma como serviço que usam virtualização de nível de sistema operacional para entregar software em pacotes chamados contêineres. Os contêineres são isolados uns dos outros e agrupam seus próprios softwares, bibliotecas e arquivos de configuração
 
 ## Documentação
 
