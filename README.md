@@ -1,6 +1,6 @@
 # cars-api
 
-Este é um projeto pessoal para estudo de criação de API's com NodeJS
+Este é um projeto pessoal para estudo de criação de API's com NodeJS.
 
 ## Tecnologias utilizadas no projeto
 
@@ -33,7 +33,7 @@ O Docker é um conjunto de produtos de plataforma como serviço que usam virtual
 
 ## Documentação da API
 
-A documentação pode ser acessada em http://localhost:3333/api-docs/ desde que a aplicação já esteja rodando
+A documentação pode ser acessada em http://localhost:3333/api-docs/ desde que a aplicação já esteja em execução
 
 # Dependências
 
