@@ -14,14 +14,14 @@ Este é um projeto pessoal para estudo de criação de API's com NodeJS
     </thead>
     <tbody>
         <tr>
-        <td style="text-align: center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="60" height="60"/></td>
-         <td style="text-align: center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="60" height="60"/></td>
-         <td style="text-align: center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="60" height="60"/></td>
+        <td style="text-align:center;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="60" height="60"/></td>
+         <td style="text-align:center;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="60" height="60"/></td>
+         <td style="text-align:center;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="60" height="60"/></td>
         </tr>
     </tbody>
 </table>
 
-## Rodando a aplicação passo a passo
+## Rodando a aplicação
 
 Vamos utilizar o Docker para rodar a aplicação utilizando o comando abaixo:
 
