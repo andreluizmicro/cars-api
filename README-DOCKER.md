@@ -72,6 +72,10 @@
 
     docker exec container_name cat /etc/hosts
 
+4 - Também podemos descobrir o ip do container assim:
+
+    docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' container_name
+
 ## Importante
 
 Nota: Para que a aplicação e o banco de dados se comuniquem é necessário estar na mesma network(rede)

@@ -3,7 +3,7 @@
     "port": 5432,
     "host": "localhost", 
     "username": "docker",
-    "password": "1234",
+    "password": "ignite",
     "database": "carsapi",
     "migrations": ["./src/database/migrations/*.ts"],
     "cli": {
