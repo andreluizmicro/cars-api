@@ -10,6 +10,7 @@ Este é um projeto pessoal para estudo de criação de API's com NodeJS.
             <th>PostgreSQL</th>
             <th>NodeJS</th>
             <th>TypeScript</th>
+            <th>Swagger</th>
         </tr>
     </thead>
     <tbody>
@@ -17,6 +18,7 @@ Este é um projeto pessoal para estudo de criação de API's com NodeJS.
         <td style="text-align:center;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="60" height="60"/></td>
          <td style="text-align:center;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="60" height="60"/></td>
          <td style="text-align:center;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="60" height="60"/></td>
+        <td style="text-align:center;"><img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Swagger-logo.png" width="70" height="70"/></td>
         </tr>
     </tbody>
 </table>

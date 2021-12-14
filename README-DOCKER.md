@@ -1,3 +1,7 @@
+## Importante -> Linux
+
+    sudo apt install golang-docker-credential-helpers
+
 ## Comandos básicos Docker
 
 1 - Comando para listar os containers em execução
@@ -34,18 +38,43 @@
 
     docker compose up -d
 
-2 - Parando o container dentro do docker-compose:
+2 - Forças a recriação do container
+
+    docker-compose up --force-recreate
+
+3 - Parando o container dentro do docker-compose:
 
     docker-compose stop
 
-3 - Removendo tudo que foi criado (OBS: cuidado!)
+4 - Removendo tudo que foi criado (OBS: cuidado!)
 
     docker-compose down
 
-4 - inciando o container
+5 - inciando o container
 
     docker-compose start
 
-5 - Parando o container
+6 - Parando o container
 
     docker-compose stop
+
+## Networks
+
+1 - Listar todas as networks
+
+    docker networls ls
+
+2 - Descobrindo o IP de uma network
+
+    docker inspect network container_name ou container_id
+
+3 - Outra forma de verificar o IP:
+
+    docker exec container_name cat /etc/hosts
+
+## Importante
+
+Nota: Para que a aplicação e o banco de dados se comuniquem é necessário estar na mesma network(rede)
+Podemos definir no docker-compose.yml a configuração abaixo para que os container possam trabalhar na mesma rede
+
+    network_mode: host
