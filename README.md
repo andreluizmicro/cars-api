@@ -88,6 +88,12 @@ PostgreSQL é um sistema gerenciador de banco de dados objeto relacional, desenv
 
 - [https://www.postgresql.org/]
 
+## TSyringe
+
+Um contêiner de injeção de dependência leve para TypeScript / JavaScript para injeção de construtor.
+
+- [https://github.com/microsoft/tsyringe]
+
 ## Conceitos SOLID
 
     S => SRP - Single Responsability Principle (Princípio da Responsabilidade Única)
