@@ -96,6 +96,12 @@ Um contêiner de injeção de dependência leve para TypeScript / JavaScript par
 
 - [https://github.com/microsoft/tsyringe]
 
+## Bcrypt
+
+bcrypt é um método de criptografia do tipo hash para senhas baseado no Blowfish. Foi criado por Niels Provos e David Mazières e apresentado na conferência da USENIX em 1999.
+
+- [https://www.npmjs.com/package/bcrypt]
+
 ## Conceitos SOLID
 
     S => SRP - Single Responsability Principle (Princípio da Responsabilidade Única)
