@@ -12,18 +12,23 @@ class UsersRepository {
 
   async create({
     name,
+    password,
     email,
     driver_license,
-    password,
   }: ICreateUserDTO): Promise<void> {
     const user = this.repository.create({
       name,
+      password,
       email,
       driver_license,
-      password,
     });
 
     await this.repository.save(user);
+  }
+
+  async findByEmail(email: string): Promise<User> {
+    const user = await this.repository.findOne({ email });
+    return user;
   }
 }
 
