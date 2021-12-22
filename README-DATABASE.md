@@ -7,3 +7,7 @@
 ## Revertendo migrate(Desfaz a migration)
 
     yarn typeorm migration:revert
+
+## Alterar dados da migration
+
+    yarn typeorm migration:create -n AlterUserAddAvatar
