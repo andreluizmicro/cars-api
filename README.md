@@ -84,7 +84,7 @@ Dependência do TypeORM que serve para auxiliar o uso do TypeORM
 
 - [https://www.npmjs.com/package/reflect-metadata]
 
-## PostfreSQL
+## PostgreSQL
 
 PostgreSQL é um sistema gerenciador de banco de dados objeto relacional, desenvolvido como projeto de código aberto.
 
